@@ -6,7 +6,7 @@
 *
 * Return: A pointer to the encoded string.
 */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 int count = 0, i;
 char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
